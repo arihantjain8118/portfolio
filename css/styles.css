@@ -748,12 +748,79 @@ a.fa.fa-angle-down:focus {
 }
 
 
+/* ======= WORK EXPERIENCES ======= */
+
+#interns {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000000;
+    color: #FFF;
+}
+
+#interns h3 {
+    font-weight: 600;
+}
+
+#interns p {
+    font-size: 15px;
+    margin: 0px auto 40px auto;
+    max-width: 80%;
+}
+
+#interns a {
+    font-weight: 500;
+}
+
+.int-icon {
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    background: #00009C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display;
+    block;
+    color: #FFF;
+    font-size: 55px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 40px;
+}
+
+.int-icon:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all ease .7s;
+    -moz-transition: all ease .7s;
+    transition: all ease .7s;
+}
+
+@media screen and (max-width: 480px) {
+    #interns{
+        padding: 60px 10px;
+    }
+    #interns h3 {
+        margin-bottom: 20px;
+    }
+    #interns p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+
 /* ======= SERVICES ======= */
 
 #services {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #F0F0F0;
+    background-color: #000000;
+    color: #FFF;
 }
 
 #services h3 {
